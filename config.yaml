@@ -1,0 +1,22 @@
+baseURL: "https://mint-jar.github.io" 
+languageCode: en-us
+title: "Mint-Jar.github.io" 
+theme: PaperMod
+tags:
+  - "docker"
+  - "today-i-learned"
+params:
+  profileMode:
+    enabled: true
+    title: "Mint-Jar.github.io" # optional default will be site title
+    subtitle: "Just random dev notes for now"
+    buttons:
+        - name: Archive
+          url: "/archive"
+        - name: Today I learned
+          url: "/tags/today-i-learned"
+  socialIcons: # optional
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/hmvandebeek"
+    - name: "github"
+      url: "https://github.com/mint-jar"
